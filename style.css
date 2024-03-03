@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+}
+
+.row-item {
+  flex-grow: 1;
+  border: 1px solid lightgray;
+  aspect-ratio: 1/1;
+}
