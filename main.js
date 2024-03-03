@@ -10,7 +10,7 @@ function createRow(width) {
     rowItem.classList.add("row-item");
 
     rowItem.addEventListener("mouseover", () => {
-      rowItem.style.backgroundColor = "black";
+      rowItem.style.backgroundColor = "#22d3ee";
     });
 
     row.appendChild(rowItem);

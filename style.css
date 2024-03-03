@@ -4,22 +4,27 @@
   box-sizing: border-box;
   margin: 0;
 }
+body {
+  background-color: #facc15;
+}
+
+#container {
+  width: 800px;
+  margin: 0 auto;
+  border: 8px solid black;
+}
 
 .btn-wrapper {
   padding: 64px 36px;
   text-align: center;
 }
 .btn-wrapper button {
-  background-color: transparent;
-  border: 2px solid #3b82f6;
-  color: #3b82f6;
+  background-color: black;
+  color: #fbbf24;
   padding: 5px 15px;
   font-weight: 600;
   border-radius: 5px;
   cursor: pointer;
-}
-.btn-wrapper button:hover {
-  background-color: #dbeafe;
 }
 
 .row {
@@ -28,6 +33,7 @@
 
 .row-item {
   flex-grow: 1;
-  border: 1px solid lightgray;
+  border: 1px solid #cffafe;
+  background-color: #eab308;
   aspect-ratio: 1/1;
 }
