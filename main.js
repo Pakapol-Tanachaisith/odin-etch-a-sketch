@@ -9,6 +9,10 @@ function createRow(perRow = 16) {
     rowItem.classList.add("row-item");
     rowItem.textContent = i;
 
+    rowItem.addEventListener("mouseover", () => {
+      rowItem.style.backgroundColor = "black";
+    });
+
     row.appendChild(rowItem);
   }
 
